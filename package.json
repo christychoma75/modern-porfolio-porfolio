@@ -1,0 +1,18 @@
+{
+  "name": "christy-choma-porfolio",
+  "version": "1.0.0",
+  "description": "Responsive Porfolio",
+  "main": "index.js",
+  "homepage": "https://christychoma75.github.io/modern-porfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css dist/css --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Christy Choma",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+  }
+}
